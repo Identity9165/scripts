@@ -1,6 +1,6 @@
 # initprose.ps1
 # -----------------------------------------
-# Asks prompts and creates a prose.sh post with frontmatte filled, ready to be edited. 
+# Asks prompts and creates a prose.sh post with frontmatter filled, ready to be edited. 
 # -----------------------------------------
 $today = Get-Date -Format "yyyy-MM-dd"
 $title = Read-Host -Prompt "Enter the post title"
